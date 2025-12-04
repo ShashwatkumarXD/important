@@ -20,16 +20,16 @@ const messages = [
 ];
 
 const musicTracks = [
+  "/her.mp3",
   "/anuv.mp3",
   "/anuv2.mp3",
-  "/her.mp3",
   "/happy.mp3"
 ];
 
 const songNames = [
+  "Her -JVKE",
   "Joh Tum Mere Ho",
   "Arz Kiya Hai",
-  "Her -JVKE",
   "Happy Birthday"
 ];
 
@@ -287,14 +287,14 @@ export default function Home() {
       </div>
 
       {/* Temporary Next Button */}
-      {started && !showCelebration && (
+      {/* {started && !showCelebration && (
         <button
           onClick={handleContinue}
           className="absolute bottom-6 right-6 z-50 bg-white/20 hover:bg-white/40 text-white px-4 py-2 rounded-full text-sm font-sans backdrop-blur-sm transition-colors"
         >
           Next
         </button>
-      )}
+      )} */}
     </div>
   );
 }
