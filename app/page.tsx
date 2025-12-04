@@ -121,7 +121,7 @@ export default function Home() {
     if (currentStep === messages.length - 1) {
       setTimeout(() => {
         setShowCelebration(true);
-      }, 1000);
+      }, 5000);
     }
   }, [started, currentStep]);
 
